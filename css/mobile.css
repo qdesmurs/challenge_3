@@ -6,6 +6,7 @@
 body {
     width: 100%;
     margin: 0;
+    background-color: #EEEEEE;
 }
 header {
     margin: 0 auto;
@@ -25,13 +26,20 @@ ul {
     padding: 0;
     text-transform: uppercase;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
+.selected {
+    color: #27AE61;
+}
 #bg {
     background-color: #27AE61;
     background-image: url(../images/banner.png);
     background-size: cover;
 }
 #bg button {
-    background-color: black;
+    background-color: #2B3F48;
     color :white;
     padding: 0.6em 1.5em;
     border: none;
@@ -71,5 +79,19 @@ button {
 }
 footer {
     text-transform: uppercase;
+    text-align: center;
+    font-size: 0.7em;
+}
+span {
+    font-weight: bold;
+}
+#temp {
+    color: white;
+    text-decoration: underline;
+    text-transform: uppercase;
 
+}
+.fotogrph {
+    color: white;
+    text-decoration: underline;
 }
