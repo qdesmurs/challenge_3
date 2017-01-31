@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="fr">
+   <head>
+       <meta charset="utf-8">
+       <title>Titre de la page</title>
+       <link rel="stylesheet" href="./css/mobile.css" />
+       <link rel="stylesheet" href="./css/tablette.css" media="screen and (min-width:400px) and (max-width:1000px)">
+       <link rel="stylesheet" href="./css/style.css" media="screen and (min-width:1000px)">
+       <link href="https://www.google.com/fonts#UsePlace:use/Collection:News+Cycle" rel="stylesheet">
+   </head>
+   <body>
+       <header>
+           <h1>Pastime</h1>
+           <nav>
+               <ul>
+                   <li><a href="./index.html">homepage</a></li>
+                   <li><a href="#">our clients</a></li>
+                   <li><a href="#">about us</a></li>
+                   <li><a href="#">careers</a></li>
+                   <li><a class="selected" href="./index2.html">contact us</a></li>
+               </ul>
+           </nav>
+       </header>
+       <section id="bg">
+       <form>
+           <div>
+               <h4>Sign Up Now!</h4>
+               <h5>Sign up and tell us what you think of the site!</h5>
+           </div>
+
+           <fieldset>
+               <legend><em>1</em>First Name &amp; Address</legend>
+               <label for="name">Your Full Name</label>
+               <input id="name" type="text"/>
+               <label for="address">Address</label>
+               <textarea id="address"></textarea>
+           </fieldset>
+
+           <fieldset>
+               <legend><em>2</em>Email &amp; Phone</legend>
+               <label for="email">Email address</label>
+               <input id="email" type="email"/>
+               <label for="phone">Phone Number</label>
+               <input id="phone" type="text" />
+           </fieldset>
+
+           <fieldset>
+               <legend><em>3</em>Passwords</legend>
+               <label for="password">Password</label>
+               <input id="password" type="password"/>
+               <label for="confirm">Confirm Password</label>
+               <input id="confirm" type="password" />
+           </fieldset>
+
+           <button type="sumbit" value="submit">Valider</button>
+           <label for="agreed"><input type="checkbox" id="agreed"/>You agree to our Terms and Policy.</label>
+       </form>
+   </section>
+   </body>
+</html>
