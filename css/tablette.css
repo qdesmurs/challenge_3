@@ -13,8 +13,20 @@ ul {
 img {
     width: 100px;
 }
-
+/*pageContactUs*/
 form {
-    width: 100%;
-    margin: 10% auto;
+    width: 90%;
+    margin: 5% auto;
+}
+label {
+    display: inline;
+}
+
+legend {
+    margin-left: -4.3em;
+}
+em {
+    height: 2.5em;
+    line-height: 2.2em;
+    width: 2.5em;
 }

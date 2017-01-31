@@ -45,7 +45,7 @@ img {
     width: 150px;
 }
 button {
-    margin: 3em 0;
+    margin: 3em 3em;
 }
 footer {
     display: flex;
@@ -53,4 +53,20 @@ footer {
 }
 #footer {
     margin-top: 10em;
+}
+/*PageContactUs*/
+form {
+    width: 50em;
+    margin: 5% auto;
+}
+label {
+    display: inline;
+}
+legend {
+    margin-left: -4.3em;
+}
+em {
+    height: 2.5em;
+    line-height: 2.2em;
+    width: 2.5em;
 }

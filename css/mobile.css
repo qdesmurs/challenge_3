@@ -129,7 +129,7 @@ span {
     color: white;
     text-decoration: underline;
 }
-
+/*pageContactUs*/
 form {
     background-color: #EEEEEE;
     width: 100%;
@@ -178,7 +178,7 @@ fieldset {
 }
 legend {
     margin-bottom: 2em;
-    margin-left: -4em;
+    margin-left: -3em;
     font-weight: bold;
     color: #27AE61;
 }
@@ -186,16 +186,18 @@ label {
     font-family: sans-serif;
     font-size: 0.7em;
     color: #888888;
+    display: block;
+    text-align: left;
 }
 fieldset label:last-of-type {
     padding-top: 0.8em;
 }
-button {
+/*button {
     margin-left: 1.8em;
-    margin-top: 1em;
-}
+    margin-top: 1em;*/
+/*}*/
 #agreed {
-    margin-left: 3.8em;
+    margin-left: 2%;
     vertical-align: middle;
 }
 em {
@@ -207,17 +209,7 @@ em {
     color: white;
     font-size: 0.9em;
     text-align: center;
-    line-height: 1.5em;
+    line-height: 1.2em;
     margin-right: 1em;
     border: 2px solid white;
-}
-
-button {
-    background-color: #27AE61;
-    border-radius: 0.4em;
-    border: none;
-    border-top: 3px solid #27AE61;
-    width: 6em;
-    height: 2em;
-    color: white;
 }
