@@ -11,24 +11,30 @@ body {
 header {
     margin: 0 auto;
     height: 12em;
+    width: 100%;
 }
 li, h1 {
     display: block;
     text-align: center;
+    margin-right: 0;
 }
 h2{
     text-transform: lowercase;
+    font-size: 45px;
 }
 h3 {
     font-weight: normal;
 }
+h2, h3, p {
+    width: 100%;
+}
 ul {
+    display: block;
     padding: 0;
     text-transform: uppercase;
 }
 a {
     text-decoration: none;
-    color: black;
 }
 .selected {
     color: #27AE61;
@@ -84,12 +90,12 @@ footer {
 }
 span {
     font-weight: bold;
+    color: white;
 }
 #temp {
     color: white;
     text-decoration: underline;
     text-transform: uppercase;
-
 }
 .fotogrph {
     color: white;
