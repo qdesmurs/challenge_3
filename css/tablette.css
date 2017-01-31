@@ -20,6 +20,7 @@ form {
 }
 label {
     display: inline;
+    font-size: 15px;
 }
 
 legend {
@@ -29,4 +30,13 @@ em {
     height: 2.5em;
     line-height: 2.2em;
     width: 2.5em;
+}
+h4 {
+    font-size: 25px;
+}
+h5 {
+    font-size: 18px;
+}
+fieldset input, fieldset textarea {
+    line-height: 2em;
 }

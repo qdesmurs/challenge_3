@@ -61,9 +61,21 @@ form {
 }
 label {
     display: inline;
+    font-size: 18px;
+}
+h4 {
+    font-size: 27px;
+}
+h5 {
+    font-size: 22px;
+}
+fieldset input, fieldset textarea {
+    line-height: 2em;
 }
 legend {
-    margin-left: -4.3em;
+    font-size: 20px;
+    margin-left: -3.7em;
+    margin-bottom: 2em;
 }
 em {
     height: 2.5em;
